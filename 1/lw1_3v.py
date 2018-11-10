@@ -15,7 +15,7 @@ y_value = list()
 
 i = 0
 a = int()
-a = input()0
+a = input("Enter value of a ")
 while i <= 2 * np.pi:
     x_value.append(x_func(int(a), i))
     y_value.append(y_func(int(a), i))
