@@ -13,10 +13,13 @@ def func(a, x):
 x_value = list()
 y_value = list()
 
-a = int()
-a = input("input a value ")
-i = - np.abs(int(a))
-while i <= np.abs(int(a)):
+print("Enter A, B and a values")
+print("-a < A <= i <= B < a, a > 0")
+A = float(input("Enter A "))
+B = float(input("Enter B "))
+a = int(input("Enter a "))
+i = A
+while i <= B:
     x_value.append(i)
     y_value.append(func(int(a), i))
     i += 0.001
