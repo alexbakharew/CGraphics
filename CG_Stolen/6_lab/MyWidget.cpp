@@ -183,7 +183,7 @@ void MyWidget::initializeGL()
     // Set BG color to black
     glClearColor(0, 0, 0, 1);
 
-    glShadeModel(GL_SMOOTH);
+    glShadeModel(GL_S);
     initShaders();
 
     // Enable depth buffer
