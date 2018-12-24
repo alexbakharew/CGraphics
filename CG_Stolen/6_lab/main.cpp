@@ -1,3 +1,4 @@
+#include <QtWidgets>
 #include <QApplication>
 #include <QMainWindow>
 #include <MyWidget.hpp>
@@ -32,8 +33,8 @@ int main(int argc, char *argv[])
     format.setDepthBufferSize(24);
     QSurfaceFormat::setDefaultFormat(format);
 
-    app.setApplicationName("Cylinder by Simon");
-    app.setApplicationVersion("0.666");
+    app.setApplicationName("");
+    app.setApplicationVersion("");
 
     auto widget = new MyWidget{};
 
@@ -87,7 +88,7 @@ int main(int argc, char *argv[])
     qvbox->addWidget(make_label(QObject::tr("Brightness slider"), brightSlider));
     qvbox->addWidget(make_label(QObject::tr("Shineness slider"), shineSlider));
 
-    auto groupbox = new QGroupBox{QObject::tr("Nevrev Semen")};
+    auto groupbox = new QGroupBox{QObject::tr("")};
     groupbox->setLayout(qvbox);
 
     QMainWindow window{};

@@ -3,7 +3,7 @@
 
 #include <QWidget>
 #include <QGroupBox>
-#include <SettingsAttr.hpp>
+#include "SettingsAttr.hpp"
 #include <QString>
 #include <QVector>
 

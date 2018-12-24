@@ -1,12 +1,12 @@
 #include <QApplication>
 #include <QMainWindow>
-#include <MyWidget.hpp>
+#include "MyWidget.hpp"
 #include <QSurfaceFormat>
 #include <QVBoxLayout>
 #include <QHBoxLayout>
 #include <QGroupBox>
-
-
+#include <QtWidgets>
+#include <QGLWidget>
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);

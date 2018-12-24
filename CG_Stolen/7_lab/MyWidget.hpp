@@ -6,8 +6,8 @@
 #include <QLineSeries>
 #include <utility>
 #include <vector>
-#include <QWidget>
-#include <SettingsWidget.hpp>
+#include <QWidgets>
+#include "SettingsWidget.hpp"
 
 class MyWidget : public QWidget
 {

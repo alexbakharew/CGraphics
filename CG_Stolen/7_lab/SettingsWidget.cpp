@@ -1,4 +1,4 @@
-#include <SettingsWidget.hpp>
+#include "SettingsWidget.hpp"
 #include <QGridLayout>
 #include <QPushButton>
 #include <QGroupBox>

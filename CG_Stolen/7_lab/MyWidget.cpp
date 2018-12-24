@@ -2,10 +2,10 @@
 #include <cmath>
 #include <QVBoxLayout>
 #include <QLabel>
-#include <MyWidget.hpp>
+#include "MyWidget.hpp"
 #include <QDebug>
 #include "splines/cubic_hermite_spline.h"
-#include <SettingsWidget.hpp>
+#include "SettingsWidget.hpp"
 #include <QValueAxis>
 #include <utility>
 

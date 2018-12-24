@@ -2,7 +2,7 @@
 #include <QString>
 #include <QVBoxLayout>
 #include <QLabel>
-#include <SettingsAttr.hpp>
+#include "SettingsAttr.hpp"
 
 SettingsAttr::SettingsAttr(QWidget *parent, const QString &tittle,
                            double min_val, double max_val) :

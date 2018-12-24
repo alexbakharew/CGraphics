@@ -2,8 +2,9 @@ from matplotlib import pyplot as plot
 from mpl_toolkits.mplot3d import Axes3D
 import numpy as np
 import sys
-from nurbs import Surface as ns
-from nurbs import utilities as utils
+# import geomdl
+from geomdl.NURBS import Surface as ns
+from geomdl import utilities as utils
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.backends.backend_qt5agg import NavigationToolbar2QT as NavigationToolbar
 from PyQt5.QtWidgets import QDialog, QApplication, QLabel, QVBoxLayout, QSlider
