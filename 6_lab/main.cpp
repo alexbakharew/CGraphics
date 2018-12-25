@@ -9,7 +9,6 @@
 #include <QGroupBox>
 #include <QTimer>
 #include <QLabel>
-
 template <typename Str, typename Parent>
 auto
 make_label(const Str &s, Parent p)
@@ -24,7 +23,6 @@ make_label(const Str &s, Parent p)
 
     return gbox;
 }
-
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
@@ -53,14 +51,6 @@ int main(int argc, char *argv[])
     brightSlider->setMinimum(0);
     brightSlider->setMaximum(256);
     brightSlider->setSingleStep(1);
-
-    // slider for setting ambient part of light
-//    auto ambientSlider = new QSlider{Qt::Horizontal};
-//    ambientSlider->setTickPosition(QSlider::NoTicks);
-//    ambientSlider->setValue(50);
-//    ambientSlider->setMinimum(0);
-//    ambientSlider->setMaximum(100);
-//    ambientSlider->setSingleStep(1);
 
     // timer for changing ambient part of light
     auto ambientTimer = new QTimer{};
@@ -95,6 +85,5 @@ int main(int argc, char *argv[])
     window.setCentralWidget(groupbox);
     window.resize(QSize(800, 600));
     window.show();
-
     return app.exec();
 }

@@ -5,7 +5,6 @@
 #include <QOpenGLShaderProgram>
 #include <QOpenGLBuffer>
 #include <vector>
-
 #include <Light.hpp>
 
 class GeometryEngine : protected QOpenGLFunctions
